@@ -1,1 +1,1 @@
-$ High performance git
+# High performance git

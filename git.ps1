@@ -6,8 +6,8 @@ if ($env:GIT_TEMP) {
 
 # Call git command with the script's arguments
 if ($env:GIT_INSTALL_ROOT) {
-    gitbin = $env:GIT_INSTALL_ROOT + "\bin\git.exe"
+    $gitbin = $env:GIT_INSTALL_ROOT + "\bin\git.exe"
 } else {
-    gitbin = "git.exe"
+    $gitbin = "git.exe"
 }
 & $gitbin $args
